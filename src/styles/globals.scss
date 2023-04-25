@@ -1,0 +1,23 @@
+$primary: #843c2c;
+$secondary: #998574;
+$tertiary: #402e32;
+
+body {
+  background-color: white;
+}
+* {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: black;
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-weight: 900;
+  }
+  p,
+  span {
+    font-size: 12px;
+    font-family: 400;
+  }
+}
