@@ -3,6 +3,7 @@
     &__header{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 0 25px;
 
         &_brand{
@@ -17,6 +18,17 @@
                 font-weight: 500;
                 text-shadow: 20px 15px 1px #998574;
             }
+        }
+        &_nav{
+            display: flex;
+            column-gap: 10px;
+            a{
+                cursor: pointer;
+            }
+          a:hover{
+            cursor: pointer;
+            color: #843c2c;;
+          }
         }
     }
 }
